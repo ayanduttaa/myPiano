@@ -1,5 +1,6 @@
 body{
     margin:0;
+    user-select:none;
     background-image: url("media/seaback.jpg");
     background-repeat: no-repeat;
     background-size: cover;
