@@ -1,0 +1,101 @@
+body{
+    margin:0;
+    background-image: url("media/seaback.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.maindiv{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+}
+.pianodiv{
+    box-shadow: 0 0 30px #ccc;    
+    border-radius: 10px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+
+}
+.buttondiv{
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+}
+.wkeys{
+    height:150px;
+    width:30px;
+    padding:0;
+    margin:0;
+    background-color:aliceblue;
+    border-radius: 0;
+    border: 1px solid #b3b3b3;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+
+    box-shadow: 0px 5px 0 0 #b8bab9;
+}
+.blackkeyholder{
+    position: absolute;
+    display: flex;
+}
+.dbkeyholder{
+    width:90px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.tbkeyholder{
+    width:120px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.bkeys{
+    background-color: black;
+    height:70px;
+    width:10px;
+    border-radius: 0;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    position: relative;
+}
+.bkeys:hover{
+    background-color: #1c1c1c;
+}
+.noteText, .noteTextB{
+    position:absolute; 
+    bottom:0; 
+    text-align:center; 
+    right:0; 
+    left:0; 
+    pointer-events:none;
+}
+.noteTextB{
+    color:white;
+}
+
+.noDisplay{
+    display: none;
+}
+/* .dbkeyholder{
+    position: absolute;
+    width:90px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.tbkeyholder{
+    position: absolute;
+    margin-left: 90px;
+    width:120px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.bkeys{
+    background-color: black;
+    height:70px;
+    width:10px;
+    border-radius: 0;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+} */
